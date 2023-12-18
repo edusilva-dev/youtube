@@ -1,10 +1,16 @@
 * {
-    margin: 0px;
-    padding: 0px;
-    box-sizing: border-box;
-    color: white;
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  color: white;
 }
 
 body {
-    background: #0f0f0f;
+  background: #0f0f0f;
+}
+
+input,
+button {
+  outline: none;
+  border: none;
 }

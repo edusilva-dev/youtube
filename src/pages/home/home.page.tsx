@@ -1,7 +1,3 @@
 export const HomePage = () => {
-    return (
-        <>
-            <h1>TESTE</h1>
-        </>
-    )
+  return <h1 style={{ marginTop: '56px' }}>TESTE</h1>
 }
