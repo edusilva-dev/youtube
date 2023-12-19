@@ -1,12 +1,18 @@
-import {FC} from 'react'
-import { LuUserCircle2 as UserIcon } from "react-icons/lu";
-import {LoginContainer , LoginText} from "./login-button.styles.ts";
+import { FC, useContext } from 'react'
+import { LoginContainer, LoginText, UserIcon } from './login-button.styles.ts'
+import { AuthContext } from '@contexts/auth.context.tsx'
 
 export const LoginButton: FC = () => {
-    return (
-        <LoginContainer>
-            <UserIcon size={22}/>
-            <LoginText>Fazer login</LoginText>
-        </LoginContainer>
-    )
+  const { setIsLogged } = useContext(AuthContext)
+
+  const handleLoginClick = () => {
+    setIsLogged(prev => !prev)
+  }
+
+  return (
+    <LoginContainer onClick={handleLoginClick}>
+      <UserIcon size={22} />
+      <LoginText>Fazer login</LoginText>
+    </LoginContainer>
+  )
 }

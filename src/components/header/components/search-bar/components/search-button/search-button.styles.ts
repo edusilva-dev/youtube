@@ -1,4 +1,5 @@
-import styled from "styled-components";
+import { COLORS } from '@styles/colors'
+import styled from 'styled-components'
 
 export const SearchButton = styled.button`
   width: 80px;
@@ -8,7 +9,7 @@ export const SearchButton = styled.button`
   align-items: center;
   justify-content: center;
 
-  background-color: #252525;
+  background-color: ${COLORS.BACKGROUND.LIGHT_BLACK};
   border-top-right-radius: 40px;
   border-bottom-right-radius: 40px;
 
