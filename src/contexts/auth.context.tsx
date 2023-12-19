@@ -1,21 +1,16 @@
-import { createContext, useState } from "react";
-import { ReactChildren } from "src/interfaces/react-children.interface";
+import { ReactNode, createContext, useState } from 'react'
 
 interface IAuthContext {
-    isLogged: boolean
-    setIsLogged: (state: boolean) => void
+  isLogged: boolean
+  setIsLogged: (state: boolean) => void
 }
-  
+
 export const AuthContext = createContext<IAuthContext>({
   isLogged: false,
   setIsLogged: () => undefined
 })
 
-export const AuthProvider = ({ children }: ReactChildren) => {
-    const [isLogged, setIsLogged] = useState(false)
-    return (
-        <AuthContext.Provider value={{isLogged, setIsLogged}}>
-            {children}
-        </AuthContext.Provider>
-    )
+export const AuthProvider: React.FC<{ children: ReactNode }> = ({ children }) => {
+  const [isLogged, setIsLogged] = useState(false)
+  return <AuthContext.Provider value={{ isLogged, setIsLogged }}>{children}</AuthContext.Provider>
 }

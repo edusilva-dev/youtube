@@ -1,4 +1,4 @@
-import { useState } from 'react'
+import React, { ReactNode, useState } from 'react'
 import {
   ConditionalSearchIcon,
   Container,
@@ -9,9 +9,8 @@ import {
   ClearIcon,
   ClearIconHover
 } from './search-bar.styles'
-import { ReactChildren } from 'src/interfaces/react-children.interface'
 
-export const SearchBarRoot = ({ children }: ReactChildren) => {
+export const SearchBarRoot: React.FC<{ children: ReactNode }> = ({ children }) => {
   const [search, setSearch] = useState<string>('')
 
   const handleClearSearch = () => {

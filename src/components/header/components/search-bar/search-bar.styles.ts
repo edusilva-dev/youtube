@@ -9,8 +9,6 @@ export const Container = styled.div`
 
   display: flex;
   align-items: center;
-
-  overflow: hidden;
 `
 
 export const InputContainer = styled.div`
@@ -108,5 +106,3 @@ export const ClearIcon = styled(IoMdClose)`
 
   z-index: 10;
 `
-
-

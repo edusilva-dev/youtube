@@ -1,5 +1,5 @@
-import { FC } from "react"
+import React from 'react'
 
-export const NotFoundPage: FC = () => {
+export const NotFoundPage: React.FC = () => {
   return <h1>NOT FOUND</h1>
 }
