@@ -7,8 +7,8 @@ import {
   KeyboardIcon,
   SearchInput,
   ClearIcon,
-  ClearIconHover
 } from './search-bar.styles'
+import { IconHover } from '@components/icon-hover/icon-hover.style'
 
 export const SearchBarRoot: React.FC<{ children: ReactNode }> = ({ children }) => {
   const [search, setSearch] = useState<string>('')
@@ -32,9 +32,9 @@ export const SearchBarRoot: React.FC<{ children: ReactNode }> = ({ children }) =
         <IconsContainer>
           <KeyboardIcon />
           {search.length > 0 && (
-            <ClearIconHover>
+            <IconHover>
               <ClearIcon size={20} onClick={handleClearSearch} />
-            </ClearIconHover>
+            </IconHover>
           )}
         </IconsContainer>
       </InputContainer>
