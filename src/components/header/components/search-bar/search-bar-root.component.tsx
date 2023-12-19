@@ -5,14 +5,13 @@ import {
   InputContainer,
   IconsContainer,
   KeyboardIcon,
-  SearchButton,
   SearchInput,
   ClearIcon,
   ClearIconHover
 } from './search-bar.styles'
-import { IoSearchOutline as SearchIcon } from 'react-icons/io5'
+import { ReactChildren } from 'src/interfaces/react-children.interface'
 
-const SearchBar = () => {
+export const SearchBarRoot = ({ children }: ReactChildren) => {
   const [search, setSearch] = useState<string>('')
 
   const handleClearSearch = () => {
@@ -41,11 +40,7 @@ const SearchBar = () => {
         </IconsContainer>
       </InputContainer>
 
-      <SearchButton>
-        <SearchIcon size={20} />
-      </SearchButton>
+      {children}
     </Container>
   )
 }
-
-export default SearchBar

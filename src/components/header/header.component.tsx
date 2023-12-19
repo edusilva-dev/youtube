@@ -1,4 +1,4 @@
-import SearchBar from './components/search-bar/search-bar.component'
+import { SearchBar } from './components/search-bar'
 import { GenericCenteredDiv, Header } from './header.styles'
 import { FaYoutube as YoutubeIcon } from 'react-icons/fa'
 
@@ -12,7 +12,10 @@ export const HeaderComponent = () => {
       </GenericCenteredDiv>
       {/* center [search input] */}
       <GenericCenteredDiv>
-        <SearchBar />
+        <SearchBar.Root>
+          <SearchBar.SearchButton/>
+          <SearchBar.AudioSearch/>
+        </SearchBar.Root>
       </GenericCenteredDiv>
       {/* end [login + options] */}
       <div></div>
