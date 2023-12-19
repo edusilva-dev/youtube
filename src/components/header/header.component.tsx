@@ -2,6 +2,7 @@ import React from 'react'
 import { SearchBar } from './components/search-bar'
 import { GenericCenteredDiv, Header } from './header.styles'
 import { FaYoutube as YoutubeIcon } from 'react-icons/fa'
+import {UserBar} from "@components/header/components/user-bar";
 
 export const HeaderComponent: React.FC = () => {
   return (
@@ -18,7 +19,9 @@ export const HeaderComponent: React.FC = () => {
         </SearchBar.Root>
       </GenericCenteredDiv>
 
-      <div></div>
+        <GenericCenteredDiv>
+            <UserBar.LoginButton/>
+        </GenericCenteredDiv>
     </Header>
   )
 }
