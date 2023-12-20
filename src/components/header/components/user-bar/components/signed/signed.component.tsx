@@ -1,15 +1,27 @@
-import { NotificationIcon, VideoPlusIcon } from "./signed.styles"
-
+import { Tooltip } from '@components/tooltip'
+import { NotificationIcon, SignedContainer, UserImage, VideoPlusIcon } from './signed.styles'
+import { IconContainer } from '@components/icon-container'
 
 export const Signed = () => {
-    // Criar
-    // Notificações
-    // Perfil -> buscar uma imagem aleatoria
-    return (
-      <>
-        <VideoPlusIcon />
-        <NotificationIcon />
-        <img src="https://thispersondoesnotexist.com/" style={{"height": 100}}></img>
-      </>
-    )
+  return (
+    <SignedContainer>
+      <Tooltip.Root>
+        <IconContainer>
+          <VideoPlusIcon size={26} />
+        </IconContainer>
+
+        <Tooltip.Content text="Criar" />
+      </Tooltip.Root>
+
+      <Tooltip.Root>
+        <IconContainer>
+          <NotificationIcon size={26} />
+        </IconContainer>
+
+        <Tooltip.Content text="Notificações" />
+      </Tooltip.Root>
+
+      <UserImage src="https://thispersondoesnotexist.com/" />
+    </SignedContainer>
+  )
 }
