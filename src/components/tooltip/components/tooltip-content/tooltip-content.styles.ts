@@ -11,6 +11,8 @@ type TooltipTextProps = {
 }
 
 export const TooltipContentContainer = styled.div<TooltipContentContainerProps>`
+  width: fit-content;
+
   display: none;
   opacity: 0;
 
@@ -59,6 +61,9 @@ export const TooltipContentContainer = styled.div<TooltipContentContainerProps>`
 `
 
 export const TooltipText = styled.span<TooltipTextProps>`
+  min-width: max-content;
+  display: block;
+
   color: ${({ $textColor }) => $textColor || COLORS.TEXT.WHITE};
   font-size: 12px;
   font-weight: 300;

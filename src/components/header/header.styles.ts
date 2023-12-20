@@ -1,8 +1,9 @@
+import { SIZES } from '@styles/sizes'
 import styled from 'styled-components'
 
 export const Header = styled.header`
   width: 100%;
-  height: 56px;
+  height: ${SIZES.HEADER.HEIGHT};
 
   padding: 0 16px;
 

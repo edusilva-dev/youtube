@@ -8,6 +8,7 @@ import { NotFoundPage } from '@pages/not-found'
 import { HeaderComponent } from '@components/header/header.component'
 
 import { AuthContext } from '@contexts/auth.context'
+import { SideMenu } from '@components/side-menu/side-menu.component'
 
 type LoggedRouteProps = {
   redirectTo: string
@@ -23,6 +24,7 @@ export const AppRoutes: React.FC = () => {
   return (
     <BrowserRouter>
       <HeaderComponent />
+      <SideMenu />
       <Routes>
         <Route path="/" element={<HomePage />} />
         <Route element={<LoggedRoute redirectTo="/" />}>

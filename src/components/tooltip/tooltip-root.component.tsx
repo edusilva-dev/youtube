@@ -1,10 +1,10 @@
 import React, { ReactNode } from 'react'
 import { TooltipContainer } from './tooltip-root.styles'
 
-type TooltipRootProps = {
+interface TooltipRootProps extends React.HTMLAttributes<HTMLDivElement> {
   children: ReactNode
 }
 
-export const TooltipRoot: React.FC<TooltipRootProps> = ({ children }) => {
-  return <TooltipContainer>{children}</TooltipContainer>
+export const TooltipRoot: React.FC<TooltipRootProps> = ({ children, style }) => {
+  return <TooltipContainer style={style}>{children}</TooltipContainer>
 }
