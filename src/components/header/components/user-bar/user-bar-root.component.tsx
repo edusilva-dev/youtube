@@ -1,14 +1,14 @@
-import { IconHover } from '@components/icon-hover'
-import { LoginButton } from './components/login-button'
-import { ThreeDotsIcon, UserBarContainer } from './user-bar-root.styles'
+import { UserBarContainer } from './user-bar-root.styles'
+import { AuthContext } from '@contexts/auth.context'
+import { useContext } from 'react'
+import { Signed } from './components/signed'
+import { Login } from './components/login/login.component'
 
 export const UserBarRoot = () => {
+  const { isLogged } = useContext(AuthContext)
   return (
     <UserBarContainer>
-      <IconHover $filled>
-        <ThreeDotsIcon />
-      </IconHover>
-      <LoginButton />
+      {isLogged ? <Signed/> : <Login/>}
     </UserBarContainer>
   )
 }
