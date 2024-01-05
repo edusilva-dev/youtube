@@ -13,10 +13,12 @@ export const COLORS = {
     LIGHT_BLACK: '#252525',
     GRAY: '#656565',
     BLUE: '#184266',
-    TRANSPARENT_GRAY: 'rgba(200, 200, 200, 0.5)'
+    TRANSPARENT_GRAY: 'rgba(100, 100, 100, 0.8)',
+    TRANSPARENT_GRAY2: 'rgba(200, 200, 200, 0.2)'
   },
   TEXT: {
     BLUE: '#3ea6ff',
-    WHITE: '#FFF'
+    WHITE: '#FFF',
+    GRAY: '#AAA'
   }
 }

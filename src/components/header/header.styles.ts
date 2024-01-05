@@ -14,6 +14,8 @@ export const Header = styled.header`
 
   background-color: #0f0f0f;
 
+  z-index: 101;
+
   position: fixed;
   top: 0;
   left: 0;

@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700;900&family=Poppins:wght@400;500;600;700&family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
 * {
   margin: 0px;
   padding: 0px;
@@ -10,8 +12,26 @@ body {
   font-family: 'Roboto', 'Arial', sans-serif;
 }
 
+body::-webkit-scrollbar {
+  width: 9px;
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: transparent;
+  border-radius: 20px;
+}
+
+body:hover::-webkit-scrollbar-thumb {
+  background-color: #bcbcbc;
+}
+
 input,
 button {
   outline: none;
   border: none;
+}
+
+#root {
+  display: flex;
+  flex-wrap: wrap;
 }
