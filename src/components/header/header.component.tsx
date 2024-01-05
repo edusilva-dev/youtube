@@ -1,12 +1,13 @@
 import React, { useContext } from 'react'
 import { SearchBar } from './components/search-bar'
 import { GenericCenteredDiv, Header } from './header.styles'
-import { FaYoutube as YoutubeIcon } from 'react-icons/fa'
+import { SiYoutubetv as YoutubeIcon } from 'react-icons/si'
 import { UserBar } from '@components/header/components/user-bar'
 import { RxHamburgerMenu as HamburguerIcon } from 'react-icons/rx'
 import { IconContainer } from '@components/icon-container'
 
 import { SideMenuContext } from '@contexts/side-menu.context'
+import { Link } from 'react-router-dom'
 
 export const HeaderComponent: React.FC = () => {
   const { setIsOpen } = useContext(SideMenuContext)
@@ -22,10 +23,9 @@ export const HeaderComponent: React.FC = () => {
           <HamburguerIcon size={22} />
         </IconContainer>
 
-        <GenericCenteredDiv>
-          <YoutubeIcon fill={'red'} size={30} />
-          <span>YouTube</span>
-        </GenericCenteredDiv>
+        <Link to="/">
+          <YoutubeIcon size={100} />
+        </Link>
       </GenericCenteredDiv>
 
       <GenericCenteredDiv>

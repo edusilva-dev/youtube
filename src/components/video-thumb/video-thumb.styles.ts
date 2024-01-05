@@ -1,23 +1,35 @@
 import { COLORS } from '@styles/colors'
+import { SIZES } from '@styles/sizes'
 import styled from 'styled-components'
 
-export const VideoThumbContainer = styled.div`
-  width: 368px;
+type MenuOpenProp = {
+  $isMenuOpen: boolean
+}
+
+export const VideoThumbContainer = styled.div<MenuOpenProp>`
+  width: ${({ $isMenuOpen }) =>
+    $isMenuOpen ? SIZES.THUMB.OPENED.WIDTH : SIZES.THUMB.CLOSED.WIDTH};
 
   display: flex;
   flex-direction: column;
   gap: 10px;
+
+  transition: all 0.2s ease;
 `
 
 export const VideoThumbImageContainer = styled.div`
   position: relative;
 `
 
-export const VideoThumbImage = styled.img`
-  width: 368px;
-  height: 207px;
+export const VideoThumbImage = styled.img<MenuOpenProp>`
+  width: ${({ $isMenuOpen }) =>
+    $isMenuOpen ? SIZES.THUMB.OPENED.WIDTH : SIZES.THUMB.CLOSED.WIDTH};
+  height: ${({ $isMenuOpen }) =>
+    $isMenuOpen ? SIZES.THUMB.OPENED.HEIGHT : SIZES.THUMB.CLOSED.HEIGHT};
 
   border-radius: 12px;
+
+  transition: all 0.2s ease;
 `
 
 export const VideoThumbImageTag = styled.span`

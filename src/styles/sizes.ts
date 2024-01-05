@@ -9,5 +9,15 @@ export const SIZES = {
     CLOSED: {
       WIDTH: '72px'
     }
+  },
+  THUMB: {
+    CLOSED: {
+      WIDTH: '314px',
+      HEIGHT: '176px'
+    },
+    OPENED: {
+      WIDTH: '368px',
+      HEIGHT: '207px'
+    }
   }
 }

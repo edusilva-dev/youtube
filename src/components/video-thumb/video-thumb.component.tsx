@@ -16,12 +16,16 @@ import { IoCheckmarkCircle as VerifiedIcon } from 'react-icons/io5'
 
 import { VideoThumbProps } from './video-thumb.type'
 import { convertViewsToText } from 'src/utils/convert-views-to-text'
+import { useContext } from 'react'
+import { SideMenuContext } from '@contexts/side-menu.context'
 
 export const VideoThumb: React.FC<VideoThumbProps> = ({ data: { image, channel, video } }) => {
+  const { isOpen } = useContext(SideMenuContext)
+
   return (
-    <VideoThumbContainer>
+    <VideoThumbContainer $isMenuOpen={isOpen}>
       <VideoThumbImageContainer>
-        <VideoThumbImage src={image.src} alt={image.alt} loading="lazy" />
+        <VideoThumbImage src={image.src} alt={image.alt} loading="lazy" $isMenuOpen={isOpen} />
         <VideoThumbImageTag>{video.duration}</VideoThumbImageTag>
       </VideoThumbImageContainer>
 

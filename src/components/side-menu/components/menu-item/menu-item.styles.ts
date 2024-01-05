@@ -17,7 +17,7 @@ export const MenuLink = styled(Link)<MenuLinkProps>`
   display: flex;
   flex-direction: ${({ $isOpen }) => ($isOpen ? 'row' : 'column')};
   align-items: center;
-  gap: 25px;
+  gap: ${({ $isOpen }) => ($isOpen ? '25px' : '8px')};
 
   border-radius: 8px;
   background-color: ${({ $isSelected = false }) =>
@@ -30,6 +30,16 @@ export const MenuLink = styled(Link)<MenuLinkProps>`
   &:hover {
     background-color: ${COLORS.BACKGROUND.TRANSPARENT_GRAY2};
   }
+
+  ${({ $isOpen }) => {
+    if ($isOpen) return
+
+    return {
+      '& span': {
+        fontSize: '10px!important'
+      }
+    }
+  }}
 `
 
 export const MenuLabel = styled.span<MenuLabelProps>`
