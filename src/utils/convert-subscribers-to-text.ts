@@ -1,4 +1,5 @@
-export const convertSubscribersToText = (views: string): string => {
+export const convertSubscribersToText = (subscribers: string): string => {
+  const SubscribersCount = Number(subscribers)
   const lookup = [
     { value: 1, symbol: '' },
     { value: 1e3, symbol: 'mil' },
@@ -9,7 +10,9 @@ export const convertSubscribersToText = (views: string): string => {
     .slice()
     .reverse()
     .find(function (item) {
-      return views >= item.value
+      return SubscribersCount >= item.value
     })
-  return item ? (views / item.value).toFixed(2).replace(rx, '$1') + ' ' + item.symbol : '0'
+  return item
+    ? (SubscribersCount / item.value).toFixed(2).replace(rx, '$1') + ' ' + item.symbol
+    : '0'
 }
