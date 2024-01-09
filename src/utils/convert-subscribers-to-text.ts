@@ -1,4 +1,4 @@
-export const convertSubscribersToText = (views: number): string => {
+export const convertSubscribersToText = (views: string): string => {
   const lookup = [
     { value: 1, symbol: '' },
     { value: 1e3, symbol: 'mil' },
