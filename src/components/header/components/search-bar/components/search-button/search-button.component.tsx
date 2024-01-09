@@ -5,11 +5,11 @@ import { Tooltip } from '@components/tooltip'
 
 export const SearchButton: React.FC = () => {
   return (
-    <Button>
-        <Tooltip.Root style={{height: '100%', width: '100%'}}>
-            <SearchIcon size={20} />
-            <Tooltip.Content text='Pesquisar' />
-        </Tooltip.Root>
-      </Button>
+    <Button type="submit">
+      <Tooltip.Root style={{ height: '100%', width: '100%' }}>
+        <SearchIcon size={20} />
+        <Tooltip.Content text="Pesquisar" />
+      </Tooltip.Root>
+    </Button>
   )
 }

@@ -1,5 +1,6 @@
-import { COLORS } from '@styles/colors'
 import styled from 'styled-components'
+
+import { COLORS } from '@styles/colors'
 
 export const SearchButton = styled.button`
   width: 80px;

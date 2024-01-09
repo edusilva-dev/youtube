@@ -9,3 +9,13 @@ export const fadeIn = keyframes`
     opacity: 1
   }
 `
+
+export const rotate = keyframes`
+  from {
+    rotate: 0deg;
+  }
+
+  to {
+    rotate: 360deg;
+  }
+`

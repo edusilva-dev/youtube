@@ -6,11 +6,15 @@ import {
   IconsContainer,
   KeyboardIcon,
   SearchInput,
-  ClearIcon,
+  ClearIcon
 } from './search-bar.styles'
 import { IconHover } from '@components/icon-hover/icon-hover.style'
 
-export const SearchBarRoot: React.FC<{ children: ReactNode }> = ({ children }) => {
+type SearchBarRootProps = {
+  children: ReactNode
+}
+
+export const SearchBarRoot: React.FC<SearchBarRootProps> = ({ children }) => {
   const [search, setSearch] = useState<string>('')
 
   const handleClearSearch = () => {

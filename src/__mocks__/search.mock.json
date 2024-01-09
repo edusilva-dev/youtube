@@ -1,0 +1,862 @@
+{
+  "kind": "youtube#searchListResponse",
+  "etag": "_iURfB-pRJnshx2YP9rOC_eZKrM",
+  "nextPageToken": "CBkQAA",
+  "regionCode": "BR",
+  "pageInfo": {
+    "totalResults": 732721,
+    "resultsPerPage": 25
+  },
+  "items": [
+    {
+      "kind": "youtube#searchResult",
+      "etag": "iuKfNs9UmowPfnUFSxqskqCaQjU",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "ro6S3jkNCxI"
+      },
+      "snippet": {
+        "publishedAt": "2024-01-06T18:00:22Z",
+        "channelId": "UC5aVIcrd8YUcjlFeRMmJMsA",
+        "title": "alanzoka jogando Tom Clancy&#39;s Splinter Cell  - Parte #2",
+        "description": "ANO NOVO, CUPOM NOVO! ALANZOKA10 é realidade, agora com 10% CUMULATIVO no KaBuM! nas categorias: Headset ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/ro6S3jkNCxI/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/ro6S3jkNCxI/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/ro6S3jkNCxI/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Lives do alanzoka",
+        "liveBroadcastContent": "none",
+        "publishTime": "2024-01-06T18:00:22Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "yC_Theb0hGF9N9n8Bt2vrAM1fRY",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "gCzcis80_Fw"
+      },
+      "snippet": {
+        "publishedAt": "2024-01-06T17:20:00Z",
+        "channelId": "UCI9N9ijtrVHbPtOSO3leBvg",
+        "title": "A lógica do Alan é inegável!! #alanzoka #shorts #shortsviral",
+        "description": "Melhores clips das lives você encontra aqui! ------TAGS----- #alanzoka #twitchbrasil #alanzokamemes #gameplay #clips ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/gCzcis80_Fw/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/gCzcis80_Fw/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/gCzcis80_Fw/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Mirage Clips",
+        "liveBroadcastContent": "none",
+        "publishTime": "2024-01-06T17:20:00Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "7gAwVEnA8J5iGkdacfJDsep82Uk",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "PLdpUBukxIo"
+      },
+      "snippet": {
+        "publishedAt": "2024-01-06T16:34:09Z",
+        "channelId": "UCUt6fP5mBFqs_DzwlLFtb4A",
+        "title": "Alanzoka jogando o Jogo do Avatar #gaming #shorts",
+        "description": "",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/PLdpUBukxIo/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/PLdpUBukxIo/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/PLdpUBukxIo/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Clips.jogoss",
+        "liveBroadcastContent": "none",
+        "publishTime": "2024-01-06T16:34:09Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "Bl3JVzTW51EKCw2mBBr5mDJdnNs",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "4Y5MIuV1_gQ"
+      },
+      "snippet": {
+        "publishedAt": "2024-01-06T16:30:01Z",
+        "channelId": "UC5aVIcrd8YUcjlFeRMmJMsA",
+        "title": "alanzoka jogando Tom Clancy&#39;s Splinter Cell  - Parte #1",
+        "description": "ANO NOVO, CUPOM NOVO! ALANZOKA10 é realidade, agora com 10% CUMULATIVO no KaBuM! nas categorias: Headset ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/4Y5MIuV1_gQ/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/4Y5MIuV1_gQ/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/4Y5MIuV1_gQ/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Lives do alanzoka",
+        "liveBroadcastContent": "none",
+        "publishTime": "2024-01-06T16:30:01Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "NkUju2beQJCCl8uG2xJOmYuj_WI",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "RSuweiPQtaw"
+      },
+      "snippet": {
+        "publishedAt": "2024-01-06T16:21:16Z",
+        "channelId": "UCUt6fP5mBFqs_DzwlLFtb4A",
+        "title": "Alan jogando o novo jogo da Ubsoft.        #shorts #alanzoka #gaming",
+        "description": "",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/RSuweiPQtaw/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/RSuweiPQtaw/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/RSuweiPQtaw/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Clips.jogoss",
+        "liveBroadcastContent": "none",
+        "publishTime": "2024-01-06T16:21:16Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "5NG4ZOF-o7DcAPjeCHChwLE_SoQ",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "5MTuYGPCL-k"
+      },
+      "snippet": {
+        "publishedAt": "2024-01-06T15:00:04Z",
+        "channelId": "UCOBmGXKTMF7k3aqabGBMznw",
+        "title": "alanzoka e os melhores momentos de 2023 | REACT DO MORENO",
+        "description": "Novo canal sobre animes: https://www.youtube.com/@animesdomoreno Seja membro do canal e ganhe conteúdo exclusivo: ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/5MTuYGPCL-k/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/5MTuYGPCL-k/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/5MTuYGPCL-k/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "React Brasil",
+        "liveBroadcastContent": "none",
+        "publishTime": "2024-01-06T15:00:04Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "CSkzWsNyAUv3FPPLEM8-oymrEf8",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "T3L4TQtY7ec"
+      },
+      "snippet": {
+        "publishedAt": "2024-01-06T14:55:22Z",
+        "channelId": "UCYDZvtMdHFB2MO9m5GJ6qug",
+        "title": "Alan cantando #alanzoka #cortes #ia #livestream #twitch",
+        "description": "",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/T3L4TQtY7ec/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/T3L4TQtY7ec/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/T3L4TQtY7ec/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Cortes do Alan Nof",
+        "liveBroadcastContent": "none",
+        "publishTime": "2024-01-06T14:55:22Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "JTqSj5Rn7ec5fqek4PmpusCbgeE",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "SXHwGsGk-Z0"
+      },
+      "snippet": {
+        "publishedAt": "2024-01-06T14:53:00Z",
+        "channelId": "UCafWTx3KnpHD0Qk58SurvDQ",
+        "title": "O Pior Guia do Mundo.... #alanzoka #2023 #2024 #games. #jogos #gameplay #lethalcompany",
+        "description": "",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/SXHwGsGk-Z0/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/SXHwGsGk-Z0/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/SXHwGsGk-Z0/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Apenas um fato",
+        "liveBroadcastContent": "none",
+        "publishTime": "2024-01-06T14:53:00Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "v9ZePOzKxvRPcFv2j8EsJoy7q8U",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "H3cC26LlZyE"
+      },
+      "snippet": {
+        "publishedAt": "2024-01-06T14:29:07Z",
+        "channelId": "UCcDk7jR50reeFYsrEffKG3A",
+        "title": "REMINHO FEZ SAPECAGENS #alanzoka #shorts",
+        "description": "alanzoka #cortes #live #clips #alanzokamelhoresmomentos #shorts.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/H3cC26LlZyE/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/H3cC26LlZyE/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/H3cC26LlZyE/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "tastdovapo",
+        "liveBroadcastContent": "none",
+        "publishTime": "2024-01-06T14:29:07Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "wE8f121PxVjqJ-bqcV2oDP1DyZ4",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "CCN2nqU99L4"
+      },
+      "snippet": {
+        "publishedAt": "2024-01-06T14:24:26Z",
+        "channelId": "UC6Y-g1uFHXlDB1_lkyg-a0g",
+        "title": "EU QUASE MANDEI O ALANZOKA PRO HOSPITAL #shorts #alanzoka720p",
+        "description": "",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/CCN2nqU99L4/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/CCN2nqU99L4/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/CCN2nqU99L4/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "The Final Count",
+        "liveBroadcastContent": "none",
+        "publishTime": "2024-01-06T14:24:26Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "bUTVXyuVchOhCRZHeCAEPcG7Tv8",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "NrnYi1iSiBY"
+      },
+      "snippet": {
+        "publishedAt": "2024-01-06T14:24:20Z",
+        "channelId": "UC6Y-g1uFHXlDB1_lkyg-a0g",
+        "title": "Funky HUMILHA BRKsEDU falando do Alanzoka",
+        "description": "",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/NrnYi1iSiBY/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/NrnYi1iSiBY/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/NrnYi1iSiBY/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "The Final Count",
+        "liveBroadcastContent": "none",
+        "publishTime": "2024-01-06T14:24:20Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "JSwVkbKR1k-0X-KKIntzUQQxyDc",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "s_MYgK_BEAU"
+      },
+      "snippet": {
+        "publishedAt": "2024-01-06T14:24:46Z",
+        "channelId": "UC6Y-g1uFHXlDB1_lkyg-a0g",
+        "title": "ALANZOKA sendo BANIDO da TWITCH KKKKKK 🛑",
+        "description": "",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/s_MYgK_BEAU/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/s_MYgK_BEAU/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/s_MYgK_BEAU/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "The Final Count",
+        "liveBroadcastContent": "none",
+        "publishTime": "2024-01-06T14:24:46Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "AQ-rRcofbga1ftGZXUvqOzGbSfE",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "ttdQzOI6zP0"
+      },
+      "snippet": {
+        "publishedAt": "2024-01-06T14:06:28Z",
+        "channelId": "UC6Y-g1uFHXlDB1_lkyg-a0g",
+        "title": "DICÇÃO PERFEITA DO ALANZOKA",
+        "description": "",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/ttdQzOI6zP0/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/ttdQzOI6zP0/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/ttdQzOI6zP0/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "The Final Count",
+        "liveBroadcastContent": "none",
+        "publishTime": "2024-01-06T14:06:28Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "tiTgtxxuhx4YYqVWs5_A5azVILE",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "ZtEHnp87YnA"
+      },
+      "snippet": {
+        "publishedAt": "2024-01-06T13:05:55Z",
+        "channelId": "UC0crD8Bb6ufdMvZLwVdj2Qw",
+        "title": "Alanzoka - I&#39; Just Ken (IA Cover)",
+        "description": "Alan cantando a música do Ken no filme da Barbie, vídeo feito com inteligência artificial canais do Alan: @alanzoka ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/ZtEHnp87YnA/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/ZtEHnp87YnA/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/ZtEHnp87YnA/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Brazuka Covers",
+        "liveBroadcastContent": "none",
+        "publishTime": "2024-01-06T13:05:55Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "t1hwh73n5CF98q1sB627OziNblg",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "XWROy8LleGA"
+      },
+      "snippet": {
+        "publishedAt": "2024-01-06T11:09:38Z",
+        "channelId": "UCEV82hqeQL0prNBS20FsAzw",
+        "title": "Alanzoka e sua bela dicção kkk",
+        "description": "shorts #short #alanzoka #live #dicção #memes.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/XWROy8LleGA/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/XWROy8LleGA/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/XWROy8LleGA/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Ryuhzin",
+        "liveBroadcastContent": "none",
+        "publishTime": "2024-01-06T11:09:38Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "IVTFWWwEVklBkLYMv0jM6HZySiM",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "ociyqOtZI80"
+      },
+      "snippet": {
+        "publishedAt": "2024-01-06T07:26:16Z",
+        "channelId": "UCEOhVTJ9X38fQdL5lTItmAw",
+        "title": "IMPOSSÍVEL NÃO RIR I Melhores momentos do Alanzoka na noitada #alanzoka #shorts #youtubeshorts",
+        "description": "alanzoka #shorts #youtubeshorts.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/ociyqOtZI80/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/ociyqOtZI80/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/ociyqOtZI80/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Destiny Off",
+        "liveBroadcastContent": "none",
+        "publishTime": "2024-01-06T07:26:16Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "qkwM9o96B8LcyaDWGX9N9o8B5Hk",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "KAa82Y9BxZA"
+      },
+      "snippet": {
+        "publishedAt": "2024-01-06T05:22:51Z",
+        "channelId": "UCYDZvtMdHFB2MO9m5GJ6qug",
+        "title": "#alanzinho #alanzoka #cortes #alanzokamelhoresmomentos #viralshorts #engraçado",
+        "description": "",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/KAa82Y9BxZA/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/KAa82Y9BxZA/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/KAa82Y9BxZA/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Cortes do Alan Nof",
+        "liveBroadcastContent": "none",
+        "publishTime": "2024-01-06T05:22:51Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "kIudnFXFe2PrezzXTGsgjbZE04o",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "bMBPe8Mg3zc"
+      },
+      "snippet": {
+        "publishedAt": "2024-01-06T02:14:42Z",
+        "channelId": "UCECNmjRQKrhwlnn4EVlDnjw",
+        "title": "A RISADA DO FALL #alanzoka #alanzokavideos #alanzokamenes #streamer #live #foryou",
+        "description": "",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/bMBPe8Mg3zc/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/bMBPe8Mg3zc/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/bMBPe8Mg3zc/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Canal Aleatório Total 9",
+        "liveBroadcastContent": "none",
+        "publishTime": "2024-01-06T02:14:42Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "K4uF8XezLC6p_TlPTgv8mB54Gkw",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "qnSicxfHYGY"
+      },
+      "snippet": {
+        "publishedAt": "2024-01-06T02:00:18Z",
+        "channelId": "UCkbkcoOJFOA4xW2_A7yUBYA",
+        "title": "AS ULTIMAS PALAVRAS DE ALANZOKA#alanzoka#shortsviral#streamer#viral #tiktok#alanzokamelhoresmomentos",
+        "description": "",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/qnSicxfHYGY/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/qnSicxfHYGY/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/qnSicxfHYGY/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "CORTES_ALANZOKA",
+        "liveBroadcastContent": "none",
+        "publishTime": "2024-01-06T02:00:18Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "J_USfh5_cbLjb_2B6WsN_TJIAVc",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "yWEMKmXUke4"
+      },
+      "snippet": {
+        "publishedAt": "2024-01-06T01:23:23Z",
+        "channelId": "UCi2l68IH-LH8MDEqceNaA1A",
+        "title": "ALANZOKA PARECE MUITO COM ESSE SOLDADO KKKKK 🤠🤠🤠 #alanzokavideos #alanzokajogando",
+        "description": "",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/yWEMKmXUke4/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/yWEMKmXUke4/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/yWEMKmXUke4/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Redzão",
+        "liveBroadcastContent": "none",
+        "publishTime": "2024-01-06T01:23:23Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "6qfT4MY8_kH0OjCfmMRIqd6ircg",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "1_c40gBnohQ"
+      },
+      "snippet": {
+        "publishedAt": "2024-01-06T01:14:11Z",
+        "channelId": "UCE3dtQlpJCnN45NnHT2RyLg",
+        "title": "JOGANDO ELDEN RING COM O ALANZOKA!",
+        "description": "",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/1_c40gBnohQ/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/1_c40gBnohQ/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/1_c40gBnohQ/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Thee GameR",
+        "liveBroadcastContent": "none",
+        "publishTime": "2024-01-06T01:14:11Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "Bp8ZWqDAwUIq5qDyHAZJmXZRkDo",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "QGJbMkT91t0"
+      },
+      "snippet": {
+        "publishedAt": "2024-01-05T23:20:00Z",
+        "channelId": "UCI9N9ijtrVHbPtOSO3leBvg",
+        "title": "Nessa festa, a dança não acompanha a música #alanzoka #shorts #shortsviral",
+        "description": "Melhores clips das lives você encontra aqui! ------TAGS----- #alanzoka #twitchbrasil #alanzokamemes #gameplay #clips ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/QGJbMkT91t0/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/QGJbMkT91t0/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/QGJbMkT91t0/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Mirage Clips",
+        "liveBroadcastContent": "none",
+        "publishTime": "2024-01-05T23:20:00Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "FtGYNi9AxL15YOp_xkriL_xaq6o",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "dkOUYDjHZd4"
+      },
+      "snippet": {
+        "publishedAt": "2024-01-05T21:15:01Z",
+        "channelId": "UC06zImNjXR55NFM4kiMSF-Q",
+        "title": "ALAN FARPANDO SONYSTAS?  #alanzoka #alanzokamelhoresmomentos #livesdoalanzoka",
+        "description": "Editor de vídeos. Contato Professional: gustavomartins05469@gmail.com Instagram: gustavo_shiny. Créditos: ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/dkOUYDjHZd4/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/dkOUYDjHZd4/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/dkOUYDjHZd4/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "ShinyMaker",
+        "liveBroadcastContent": "none",
+        "publishTime": "2024-01-05T21:15:01Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "8bEdEtn_zYmGN-ClrtsSrEVzRXo",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "M2VTnjWoifs"
+      },
+      "snippet": {
+        "publishedAt": "2024-01-05T20:39:56Z",
+        "channelId": "UCz4K_ZF8xsKkEEH0BZXZ9IA",
+        "title": "Clutch do Alanzoka  #alanzoka #cs2 #couterstrike #shorts",
+        "description": "",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/M2VTnjWoifs/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/M2VTnjWoifs/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/M2VTnjWoifs/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Pego no clip",
+        "liveBroadcastContent": "none",
+        "publishTime": "2024-01-05T20:39:56Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "VwzMwWIJ5rvaoKP4iH7F8f0W54A",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "HdZwmK4wm2o"
+      },
+      "snippet": {
+        "publishedAt": "2024-01-05T20:12:36Z",
+        "channelId": "UCmO7jENQ_WJwieW8O3NZ7Hw",
+        "title": "uma hora o alanzoka cai duro, certeza kkk",
+        "description": "alanzoka jogando terror #alanzoka #jogodeterror #alanzok.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/HdZwmK4wm2o/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/HdZwmK4wm2o/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/HdZwmK4wm2o/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Sustos Jogos",
+        "liveBroadcastContent": "none",
+        "publishTime": "2024-01-05T20:12:36Z"
+      }
+    }
+  ]
+}
