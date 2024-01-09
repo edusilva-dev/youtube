@@ -1,15 +1,36 @@
-import { BrowserRouter, Route, Routes } from "react-router-dom"
-import { HomePage } from "./pages/home/home.page"
-import { ShortsPage } from "./pages/shorts/shorts.page"
-import { NotFoundPage } from "./pages/not-found"
+import React, { Suspense, useContext } from 'react'
+import { BrowserRouter, Navigate, Outlet, Route, Routes } from 'react-router-dom'
 
-export const AppRoutes = () => {
+import { HomePage } from '@pages/home/home.page'
+import { ShortsPage } from '@pages/shorts/shorts.page'
+import { NotFoundPage } from '@pages/not-found'
+
+import { HeaderComponent } from '@components/header/header.component'
+
+import { AuthContext } from '@contexts/auth.context'
+import { SideMenu } from '@components/side-menu/side-menu.component'
+import { SearchResult } from '@pages/search-result'
+
+type LoggedRouteProps = {
+  redirectTo: string
+}
+
+const LoggedRoute: React.FC<LoggedRouteProps> = ({ redirectTo }) => {
+  const { isLogged } = useContext(AuthContext)
+
+  return isLogged ? <Outlet /> : <Navigate to={redirectTo} />
+}
+
+export const AppRoutes: React.FC = () => {
   return (
     <BrowserRouter>
+      <HeaderComponent />
+      <SideMenu />
       <Routes>
-        <Route path="*" element={<NotFoundPage/>}/>
-        <Route path="/" element={<HomePage/>}/>
-        <Route path="/teste" element={<ShortsPage/>}/>
+        <Route path="/" element={<HomePage />} />
+        <Route path="/shorts" element={<ShortsPage />} />
+        <Route path="/results" element={<SearchResult />} />
+        <Route path="*" element={<NotFoundPage />} />
       </Routes>
     </BrowserRouter>
   )

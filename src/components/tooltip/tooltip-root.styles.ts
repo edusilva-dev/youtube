@@ -1,0 +1,18 @@
+import { fadeIn } from '@styles/animations'
+import styled from 'styled-components'
+
+export const TooltipContainer = styled.div`
+  width: fit-content;
+  position: relative;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  z-index: 1000;
+
+  &:hover div:nth-child(2) {
+    display: block;
+    animation: ${fadeIn} 0.2s ease forwards;
+  }
+`
