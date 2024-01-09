@@ -1,15 +1,3 @@
-// React.useEffect(() => {
-//   const getChannels = async () => {
-//     const response = await fetch(
-//       'https://youtube.googleapis.com/youtube/v3/search?part=snippet&maxResults=25&q=[SEARCH]&key=AIzaSyBQDSQ-MId9WlyC2bK7W-0fhp5CecHBx9I'
-//     )
-//     const data = await response.json()
-//     console.log(data)
-//   }
-//
-//   getChannels()
-// }, [])
-
 import axios from 'axios'
 import { ChannelSearch } from 'src/types/channel-search.type'
 
