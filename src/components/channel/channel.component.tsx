@@ -49,7 +49,7 @@ const ChannelComponent: React.FC<ChannelProps> = ({ channelId }) => {
             <>
               <Separator>•</Separator>
               <ChannelSubscribers>
-                {convertSubscribersToText(channel!.statistics.subscriberCount)} de inscritos
+                {convertSubscribersToText(channel?.statistics?.subscriberCount || '0')} de inscritos
               </ChannelSubscribers>
             </>
           )}
